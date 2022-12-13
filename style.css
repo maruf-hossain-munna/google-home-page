@@ -16,6 +16,16 @@
     text-decoration: underline;
 }
 
+.google-apps{
+    width: 26px;
+    margin: 0 18px;
+}
+.google-apps:hover{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #dbdddf;
+}
+
 .signin-btn {
     background-color: #1a73e8;
     border: 1px solid transparent;
@@ -61,32 +71,25 @@
 }
 .search-div input{
     height: 33px;
-    width: 430px;
+    width: 410px;
     background-color: transparent;
     border: none;
 }
-.search-div input::after{
+.search-div input:focus{
     border: none;
 }
 .search-icon{
     width: 16px;
+    margin-left: 10px;
 }
 .rightSide-icon{
     width: 25px;
+    margin-right: 15px;
 }
-/* 
-.search {
-    font-family: arial, sans-serif;
-    background-color: transparent;
-    border: 1px solid rgb(180, 171, 171);
-    color: rgba(0, 0, 0, .87);
-    font-size: 16px;
-    height: 38px;
-    width: 550px;
-    border-radius: 50px;
-    margin: 20px 0;
-
-} */
+.camera-icon{
+    width: 22px;
+    margin-right: 15px;
+}
 
 .search-div:hover {
     box-shadow: 1px 1px 1px 1px rgb(229, 226, 226);
